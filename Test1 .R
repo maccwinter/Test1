@@ -54,4 +54,9 @@ him <- c(1,2,3,5)
 him[5]
 #I got NA because there is no 5th value in the him. 
 
+#conditional statement 
+
+switcheroo.if.then <- function(i) {if (i ==f) "loon" else if (i ==g) "cat" else if (i==h) "dog" else "bird"}
+switcheroo.if.then(f)
+                  
 
