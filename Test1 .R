@@ -58,5 +58,15 @@ him[5]
 
 switcheroo.if.then <- function(i) {if (i ==f) "loon" else if (i ==g) "cat" else if (i==h) "dog" else "bird"}
 switcheroo.if.then(f)
-                  
+character <- "hey"
+integer <- c(5L,6L,7L)
+integer
+double <- 5
+double
+factor <-factor(20/10)
+factor
+
+
+
+
 
