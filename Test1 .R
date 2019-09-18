@@ -25,19 +25,20 @@ z
 ((z + x)*(z+y))/2
 # got 218.5
 ###8 the "not" operator is and !, which specifies that an object is not something specified. 
-one%%seven
-#The answer is 5
-# The %% operator gives the 
-##9
+'%function%' <- function(i,j){one*i + seven*j}
+1%function%2 
+# The %% operator greates an operater with the assigned name inbetweeen the %% to act on values that can be specified 
 one^seven
 #This places the value assigned to "one" to the power of the value assigned to "seven"
 one%/%seven
-# The %/% operator determines how many times the value on the right is divisible to the value on the left
+# The %/% operator determines how many integersthe value on the right is divisible to the value on the left
 operator <- function(i,j){2*i + 3*j}
 operator(1,2)
 #answer is 8. 
-##
-##12
+f <-3; g <-4; h <-7
+f
+g
+h
 
 #inf means that a value is too large: 
 100^1000000
@@ -45,11 +46,12 @@ operator(1,2)
 # -Inf means that an object is too large, but it has a negative value
 -100^100001
 #The result is -Inf
-##13
-
-
-
-
-
+#NaN is when you ask R to calculate a value that doesn't make sense, such as: 0/0
+0/0
+#result is NaN
+#NA refers to there being no available answer to a command. 
+him <- c(1,2,3,5)
+him[5]
+#I got NA because there is no 5th value in the him. 
 
 
