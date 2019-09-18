@@ -66,6 +66,10 @@ double
 factor <-factor(20/10)
 factor
 
+a.ray <- array(24, dim = c(4,3,2))
+a.ray
+matrix <- matrix(1:10, nrow = 5, ncol=2)
+matrix 
 
 
 
