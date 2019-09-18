@@ -71,6 +71,27 @@ a.ray
 matrix <- matrix(1:10, nrow = 5, ncol=2)
 matrix 
 
-
-
-
+test <- load(file='test1_data')
+test
+#"d" is data
+d
+NROW(d)
+#There are 503441 rows 
+NCOL(d)
+#There are 18 columns
+str(d)
+# There is 1) Integer 2) Factor 3) Numerical 4) Character and 5) POSIXct data
+tow <-d$tow
+tow
+head(d)
+d$tow <- as.factor(tow)
+str(head(d))
+#The tow data is now factor
+haul <-d$haul
+haul
+d$haul <- as.integer(haul)
+str(head(d))
+#haul data is not integer
+d$sw.density <- NULL
+head(d)
+#The sw.density column is gone 
